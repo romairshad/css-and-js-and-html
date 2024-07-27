@@ -1,0 +1,771 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*.background {
+    background: rgba(0, 0, 0, 0.7) url(student_backgroud.jpg );
+    background-size: cover;
+    background-blend-mode: screen;
+    width: auto;
+    height: auto;
+}*/
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+
+
+
+/* Header styles */
+header {
+    background-color: #07002e;
+    padding: 20px;
+    height: 60px;
+    text-shadow: 2px 2px black;
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47%;
+}
+
+#image_logo {
+    height: 206%;
+    width: 36%;
+    justify-content: center;
+    border: 3px ridge white;
+    border-radius: 50px;
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.leftbar {
+    display: flex;
+    width: 50%;
+}
+
+
+#search {
+
+    position: absolute;
+    padding: 5px;
+    font-size: 17px;
+    border: 2px ridge grey;
+    border-radius: 9px;
+    left: 1028px;
+    top: 13px;
+}
+.btn {
+    position: relative;
+    left: -15px;
+    top: -6px;
+    border: 2px ridge white;
+    border-radius: 13px;
+    background-color: #07002e;
+    width: 65px;
+    height: 31px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.btn:hover {
+    color: #07002e;
+    transition: .1s;
+}
+
+.rightnav {
+    width: 50%;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    color: #07002e;
+    transition: .1s;
+}
+
+/* Main styles 
+  main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    */
+.background_image {
+    border: 2px ridge #07002e;
+    width: 75pc;
+    height: 34pc;
+}
+
+
+
+#hero {
+    display: flex;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px black;
+}
+
+.main_heading {
+    margin-bottom: 10px;
+    position: absolute;
+    padding: 0;
+    text-align: center;
+    width: 63pc;
+    top: 245px;
+    font-size: 40px;
+}
+
+#main_p {
+    top: 313px;
+    width: 31pc;
+    position: absolute;
+    height: 0;
+    font-size: 22px;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+.cta-button {
+    top: 393px;
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #07002e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+}
+
+.cta-button:hover {
+    color: #07002e;
+    transition: .1s;
+
+}
+
+.image {
+    position: absolute;
+    display: flex;
+}
+
+/* Course styles */
+#courses {
+    background-color: #F9F5F6;
+    
+    padding: 10px;
+    margin: 20px;
+}
+
+#feature {
+    text-align: center;
+    /* color: #07002e; */
+    padding: 2px;
+    text-shadow: 2px 2px #E4DCCF;
+    font-size: 32px;
+    /*text-decoration-line: underline;*/
+    /* border: 3px ridge #07002e;*/
+}
+
+.course_card {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    width: 70%;
+}
+
+#DS_image {
+    width: 147%;
+    border: 3px ridge darkmagenta;
+    border-radius: 11px;
+    padding: 2px;
+}
+
+#p_of_DS {
+    width: 168%;
+}
+
+#DA_image {
+    width: 51%;
+    border: 3px ridge deepskyblue;
+    border-radius: 11px;
+    padding: 2px;
+}
+
+#p_of_DA {
+    width: 101%;
+}
+
+.dataanalysis {
+    position: relative;
+    left: 225px;
+}
+
+.ecommercecourse {
+    position: relative;
+    left: 332px;
+}
+
+#EC_image {
+    width: 57%;
+    border: 2px ridge goldenrod;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+/* top_stories styles */
+#top_Stories {
+    background-color: #07002e;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+#top_Stories h2 {
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+
+#top_Stories article {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+/*MS styles*/
+#MS img {
+    position: relative;
+    left: 202px;
+    top: 13px;
+    border: 2px ridge;
+    border-radius: 50px;
+    transition: width 1s;
+}
+
+#MS div {
+    width: 50%;
+    position: relative;
+    left: 299px;
+    top: 38px;
+}
+
+#MS div p {
+    width: 73%;
+
+}
+
+#MS img:hover {
+    width: 25%;
+}
+
+/*#pT style*/
+#pT div {
+    width: 50%;
+    position: relative;
+    left: 207px;
+    top: 16px;
+}
+
+#pT div p {
+    width: 55%;
+}
+
+#pT img {
+    border: 2px ridge;
+    border-radius: 96px;
+    position: relative;
+    left: 55px;
+    top: 17px;
+    transition: width 1s;
+}
+
+#pT img:hover {
+    width: 25%;
+}
+
+/* Contact styles */
+#contact {
+
+    background-color: #F9F5F6;
+    padding: 10px;
+    margin: 20px;
+}
+
+#contact h2 {
+    text-shadow: 2px 2px rgb(rgb(73, 73, 73), rgb(98, 99, 98), rgb(64, 64, 65));
+    text-align: center;
+    font-size: 28px;
+}
+
+#contact p {
+    text-align: center;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#sub_btn {
+    padding: 10px 20px;
+    background-color: #07002e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+    position: relative;
+    top: 0px;
+    left: 624px;
+}
+
+#sub_btn:hover {
+    color: #07002e;
+    transition: .1s;
+}
+
+/* Footer styles */
+footer {
+    background-color: #07002e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+/*LUNCHING OF MUSIC SOCIETY HTML*/
+/*Music Socciety style*/
+#music_society img {
+    position: relative;
+    left: 489px;
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    padding: 2px;
+    border: 2px ridge black;
+    border-radius: 139px;
+}
+#music_society h1 {
+    text-align: center;
+    margin: 11px;
+    padding: 2px;
+}
+#music_society button {
+    position: relative;
+    left: 256px;
+    top: -77px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+}
+#music_society button:hover {
+    color: grey;
+    transition: .1s;
+}
+#music_society p {
+    text-align: center;
+}
+#music_society_submit{
+    padding: 10px 20px;
+    background-color: #07002e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+    position: relative;
+    top: 0;
+    left: 624px;
+}
+#music_society_submit:hover {
+    color: #07002e;
+    transition: .1s;
+}
+/*travel Society style*/
+#travel_society img {
+    position: relative;
+    left: 489px;
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    padding: 2px;
+    border: 2px ridge black;
+    border-radius: 194px;
+}
+#travel_society h1 {
+    text-align: center;
+    margin: 11px;
+    padding: 2px;
+}
+#travel_society button {
+    position: relative;
+    left: 240px;
+    top: -299px;
+    padding: 10px 20px;
+    color:white;
+    background-color: #07002e;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+}
+#travel_society button:hover {
+    color: grey;
+    transition: .1s;
+}
+#travel_society p {
+    text-align: center;
+}
+#travel_society_submit{
+    padding: 10px 20px;
+    background-color: #07002e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+    position: relative;
+    top: 0px;
+    left: 624px;
+}
+#travel_society_submit:hover {
+    color: #07002e;
+    transition: .1s;
+}
+#registration h3 {
+    text-align: center;
+    font-size: 20px;
+}
+#registration img {
+    border: 2px ridge black;
+    padding: 1px;
+    border-radius: 126px;
+    position: relative;
+    left: 535px;
+    top: 12px;
+}
+#registration p {
+    width: 50%;
+    position: relative;
+    left: 377px;
+    top: 19px;
+}
+#registration button{
+    top: 14px;
+    left: 374px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #07002e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+}
+
+#registration button:hover {
+    color: #07002e;
+    transition: .1s;
+}
+/*courses.html style */
+.course{
+    background-color: #F9F5F6;
+    padding: 10px;
+    margin: 20px;
+    
+}
+#course-1{
+    background-color: #F9F5F6;
+    margin-top:0;
+    padding:0;
+    margin-bottom: 20px;
+   
+}
+.course h2 {
+    text-align: center;
+    font-size: 43px;
+}
+/*data science course*/
+#datascience {
+    display: flex;
+    position: relative;
+    left: 5px;
+}
+#datascience img {
+    width: 25%;
+    border: 2px ridge darkmagenta;
+    padding: 1px;
+    position: relative;
+    left: 140px;
+}
+#datascience div {
+    position: relative;
+    left: 223px;
+    top: 23px;
+}
+#datascience div p {
+    width: 582px;
+}
+#datascience div button {
+    /*top: 393px;
+    position: absolute;
+    display: inline-block;*/
+    padding: 10px 20px;
+    background-color: #07002e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+}
+#datascience div button:hover{
+    color: #07002e;
+    transition: .1s;
+}
+/*data analysis course*/
+#dataanalysis {
+    display: flex;
+    position: relative;
+    left: 7px;
+    top: 28px;  
+}
+#dataanalysis img {
+    width: 25%;
+    border: 2px ridge deepskyblue;
+    padding: 1px;
+    position: relative;
+    left: 225px;
+}
+#dataanalysis div {
+    position: relative;
+    left: 140px;
+    top: 4px;
+}
+#dataanalysis div p {
+    width: 582px;
+}
+#dataanalysis div button {
+    /*top: 393px;
+    position: absolute;
+    display: inline-block;*/
+    padding: 10px 20px;
+    background-color: #07002e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+}
+#dataanalysis div button:hover{
+    color: #07002e;
+    transition: .1s;
+}
+/*e-commernce course*/
+#ecommercecourse {
+    display: flex;
+    position: relative;
+    left: 5px;
+    top: 28px;
+}
+#ecommercecourse img {
+    width: 25%;
+    border: 2px ridge goldenrod;
+    padding: 1px;
+    position: relative;
+    top: 17px;
+    left: 143px;
+}
+#ecommercecourse div {
+    position: relative;
+    left: 232px;
+    top: 23px;
+}
+#ecommercecourse div p {
+    width: 582px;
+}
+#ecommercecourse div button {
+    /*top: 393px;
+    position: absolute;
+    display: inline-block;*/
+    padding: 10px 20px;
+    background-color: #07002e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+}
+#ecommercecourse div button:hover{
+    color: #07002e;
+    transition: .1s;
+}
+/*advanced excel course*/
+#advanced_excel_course {
+    display: flex;
+    position: relative;
+    left: 7px;
+    top: 54px;
+}
+#advanced_excel_course img {
+    width: 25%;
+    border: 2px ridge darkgreen;
+    padding: 1px;
+    position: relative;
+    top: 25px;
+    left: 226px;
+
+}
+#advanced_excel_course div {
+    position: relative;
+    left: 140px;
+    top: 31px;
+}
+#advanced_excel_course div p {
+    width: 582px;
+}
+#advanced_excel_course div button {
+    /*top: 393px;
+    position: absolute;
+    display: inline-block;*/
+    padding: 10px 20px;
+    background-color: #07002e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+}
+#advanced_excel_course div button:hover{
+    color: #07002e;
+    transition: .1s;
+}
+/*assertiveness skill course*/
+#assertiveness_skill_course{
+    display: flex;
+    position: relative;
+    left: 5px;
+    top: 117px;
+}
+#assertiveness_skill_course img {
+    width: 17%;
+    border: 2px ridge pink;
+    padding: 2px;
+    position: relative;
+    left: 136px;
+}
+#assertiveness_skill_course div {
+    position: relative;
+    left: 243px;
+    top: 1px;
+}
+#assertiveness_skill_course div p {
+    width: 658px;
+}
+#assertiveness_skill_course div button {
+    /*top: 393px;
+    position: absolute;
+    display: inline-block;*/
+    padding: 10px 20px;
+    background-color: #07002e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+}
+#assertiveness_skill_course div button:hover{
+    color: #07002e;
+    transition: .1s;
+}
+/*contract management course*/
+#contract_management_course {
+    display: flex;
+    position: relative;
+    left: 7px;
+    top: 138px;
+}
+#contract_management_course img {
+    width: 25%;
+    border: 2px ridge darkmagenta;
+    padding: 1px;
+    position: relative;
+    left: 216px;
+}
+#contract_management_course div {
+    position: relative;
+    left: 130px;
+    top: -2px;
+}
+#contract_management_course div p {
+    width: 582px;
+}
+#contract_management_course div button {
+    /*top: 393px;
+    position: absolute;
+    display: inline-block;*/
+    padding: 10px 20px;
+    background-color: #07002e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+}
+#contract_management_course div button:hover{
+    color: #07002e;
+    transition: .1s;
+}
+#course_submit{
+    padding: 10px 20px;
+    background-color: #07002e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 19px;
+    border: 2px ridge white;
+    position: relative;
+    top: 0;
+    left: 624px;
+}
+#course_submit:hover {
+    color: #07002e;
+    transition: .1s;
+}
+.contact-course{
+    position: relative;
+    top: 158px;
+}
+#footer{
+    position: relative;
+    top: 126px;
+}
